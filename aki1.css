@@ -6,8 +6,14 @@ body {
     font-family: Georgia, Palatino, serif;
 }
 
+h1 {
+    font-style: italic;
+    font-size: 60px;
+    text-align: center;
+}
+
 a:link {
-    color: white;
+    color: black;
 }
 
 ul {
@@ -15,7 +21,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #FBEFF8;
 }
 
 li {
@@ -24,18 +30,14 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 80px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
+    background-color: #F6CED8;
 }
 
 
