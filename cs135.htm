@@ -6,34 +6,39 @@
     <link rel="stylesheet" type="text/css" href="index.css"/>
     </head>
     
-    <body>
-        <!-- title: cs135 -->
-        <div class="cs135">
-            <p class="cs135">CS 135</p>
-        </div>
+    <body class="tree">
+        <h1 class="courseheader">CS 135: Designing Functional Programs</h1>
         
-        <!-- navigation -->
-        <div class="nav135">
-            <ul class="nav135">
-                <li class="nav135"><a href="index.htm">Home</a></lo>
-                <li class="nav135"><a href="aboutme.htm">About Me</a></li>
-                <li class="nav135">
-                    <!-- dropdown -->
-                    <div class="dropdown">
-                        <button class="dropdown">Courses</button>
-                        <!-- dropdown content -->
-                        <div class="dropdown-content">
-                            <a href="cs136.htm">CS 136</a>
-                            <a href="cs246.htm">CS 246</a>
-                            <a href="cs241.htm">CS 241</a>
-                            <a href="cs350.htm">CS 350</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="hornav"><a href="https://github.com/AkiZong">GitHub</a></li>
-                <li class="hornav"><a href="https://www.facebook.com/profile.php?id=100009678337274">Facebook</a></li>
-                <li class="hornav"><a href="contact">Contact</a></li>
+        <!-- main navigation -->
+        <div class = "subnav">
+            <ul class = "subnav">
+                <li class="subnav"><a href="index.htm">Home</a></li>
+                <li class="subnav"><a href="aboutme.htm">About Me</a></li>
+                <li class="subnav"><a href="https://github.com/AkiZong">GitHub</a></li>
+                <li class="subnav"><a href="https://www.facebook.com/profile.php?id=100009678337274">Facebook</a></li>
+                <li class="subnav"><a href="contact">Contact</a></li>
             </ul>
         </div>
+        
+        <!-- course navigation -->
+        <div class="course">
+            <button class="course">Courses</button>
+            <div class="dropdown-content">
+                <a href="cs136.htm">CS 136</a>
+                <a href="cs246.htm">CS 246</a>
+                <a href="cs241.htm">CS 241</a>
+                <a href="cs350.htm">CS 350</a>
+            </div>
+        </div>
+        
+        <!-- course description -->
+        
+        <div class="split">
+            <div class="solidbox">
+                An introduction to the fundamentals of computer science through the application of elementary programming patterns in the functional style of programming. Syntax and semantics of a functional programming language. Tracing via substitution. Design, testing, and documentation. Linear and nonlinear data structures. Recursive data definitions. Abstraction and encapsulation. Generative and structural recursion. Historical context.
+            </div>
+        </div>
+        
+    </body>
 </html>
 

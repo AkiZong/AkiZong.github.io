@@ -12,12 +12,24 @@ h1.name {
     text-align: center;
 }
 
-ul {
+ul{
     list-style-type: none;
-    background-color: #F6CED8;
-    width: 100%;
     margin: 0;
     padding: 0;
+    background-color: #FBEFF8;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 a:link {
@@ -25,7 +37,7 @@ a:link {
 }
 
 a:visited {
-    color: blue;
+    color: grey;
 }
 
 a:hover {
@@ -36,33 +48,13 @@ a:active {
     color: red;
 }
 
-li.hornav {
-    display: inline;
-}
-
-li {
-    text-align: center;
-    float: left;
-    color: black;
-    position: relative;
-}
-
-li a {
-    margin: 0;
-    display: block;
-    padding: 20px 50px;
-    background-color: #FBEFF8;
-}
-
 .dropbtn {
     background-color: #FBEFF8;
-    margin: 0;
-    display: block;
-    padding: 20px 50px;
-    border: none;
-    font-style: normal;
+    color: black;
+    padding: 16px;
     font-size: 16px;
-    text-decoration: underline;
+    border: none;
+    cursor: pointer;
 }
 
 .dropdown {
@@ -73,16 +65,16 @@ li a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #FBEFF8;
+    background-color: pink;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown-content a {
-    margin: 0;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
     display: block;
-    padding: 20px 50px;
-    background-color: #FBEFF8;
 }
 
 .dropdown-content a:hover {background-color: #FBEFF8}
@@ -91,31 +83,55 @@ li a {
     display: block;
 }
 
-/* -------------------------CS 135/* ------------------------- */
-p.cs135 {
-    background-image: url("course.jpg");
-    background-repeat: no-repeat;
-    font-style: normal;
-    font-size: 35px;
-    padding: 30px;
-    text-align: center;
-    margin: 0;
+.dropdown:hover .dropbtn {
+    background-color: #FBEFF8;
 }
 
-.nav135{
-    background-color: pink;
+/* --------------------- CS 135 --------------------- */
+ul.subnav {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 110px;
+    position: fixed;
 }
-/*
-button.dropdown {
-    background-color: pink;
-    font-style: normal;
-    font-size: 15px;
+
+li a.subnav {
+    display: block;
+    background-color: #dddddd;
 }
- */
 
 
+.tree {
+    background-image: url("tree.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+}
 
+.courseheader {
+    text-align: center;
+    background: url("course.jpg");
+    background-repeat: no-repeat;
+    background-size: 870px 300px;
+    margin-top: 0;
+}
+
+.solidbox {
+    background-color: #FBEFF8;
+    width: 200px;
+    padding: 25px;
+    border: 25px solid pink;
+    margin: 25px;
+    margin-left: 140px;
+    margin-top: 5px;
+}
+
+.split {
+    margin-left: 50px;
+    border-left: 1px;
+}
 
 
 
