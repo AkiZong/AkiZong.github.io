@@ -4,9 +4,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: Georgia, Palatino, serif;
+    width: 100%;
 }
 
-h1 {
+h1.name {
     font-style: italic;
     font-size: 60px;
     text-align: center;
@@ -59,7 +60,7 @@ li a {
     display: block;
     padding: 20px 50px;
     border: none;
-    font-style: Nunito-Bold;
+    font-style: normal;
     font-size: 16px;
     text-decoration: underline;
 }
@@ -89,6 +90,10 @@ li a {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* -------------------------CS 135/* ------------------------- */
+
+
 
 
 
