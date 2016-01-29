@@ -12,47 +12,52 @@ h1.name {
     text-align: center;
 }
 
-ul{
+/* mainnav */
+
+ul.mainnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    position: fixed;
     background-color: #FBEFF8;
-    overflow: hidden;
+    width: 100%;
 }
 
-li {
-    float: left;
-}
-
-li a {
-    display: inline-block;
+ul.mainnav li a {
+    display: block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-a:link {
+ul.mainnav li {
+    float: left;
+}
+
+a.mainnav:link {
     color: black;
 }
 
-a:visited {
+a.mainnav:visited {
     color: grey;
 }
 
-a:hover {
+a.mainnav:hover {
     color: hotpink;
 }
 
-a:active {
+a.mainnav:active {
     color: red;
 }
 
+/* dropdown */
 .dropbtn {
     background-color: #FBEFF8;
-    color: black;
-    padding: 16px;
+    font-family: 'Nunito-Bold';
     font-size: 16px;
+    color: black;
+    padding: 14px;
     border: none;
     cursor: pointer;
 }
@@ -65,7 +70,7 @@ a:active {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: pink;
+    background-color: #FBEFF8;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -77,7 +82,7 @@ a:active {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #FBEFF8}
+.dropdown-content a:hover {background-color: #f1f1f1}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -87,20 +92,24 @@ a:active {
     background-color: #FBEFF8;
 }
 
+
 /* --------------------- CS 135 --------------------- */
-ul.subnav {
+ul.sub {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 110px;
     position: fixed;
+    background-color: #FBEFF8;
+    width: 15%;
 }
 
-li a.subnav {
+ul.sub li a {
     display: block;
-    background-color: #dddddd;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-
 
 .tree {
     background-image: url("tree.gif");
@@ -114,13 +123,15 @@ li a.subnav {
     text-align: center;
     background: url("course.jpg");
     background-repeat: no-repeat;
-    background-size: 870px 300px;
-    margin-top: 0;
+    background-size: 870px 400px;
+    margin: 0;
+    width: 100%;
+    padding: 0;
 }
 
 .solidbox {
     background-color: #FBEFF8;
-    width: 200px;
+    width: 500px;
     padding: 25px;
     border: 25px solid pink;
     margin: 25px;
