@@ -1,0 +1,10 @@
+C:\Users\Akibone's Alienware\Desktop\vs\AkiZong.github.io\akizong\akizong\bin\Debug\netcoreapp1.1\akizong.deps.json
+C:\Users\Akibone's Alienware\Desktop\vs\AkiZong.github.io\akizong\akizong\bin\Debug\netcoreapp1.1\akizong.runtimeconfig.json
+C:\Users\Akibone's Alienware\Desktop\vs\AkiZong.github.io\akizong\akizong\bin\Debug\netcoreapp1.1\akizong.runtimeconfig.dev.json
+C:\Users\Akibone's Alienware\Desktop\vs\AkiZong.github.io\akizong\akizong\bin\Debug\netcoreapp1.1\akizong.dll
+C:\Users\Akibone's Alienware\Desktop\vs\AkiZong.github.io\akizong\akizong\bin\Debug\netcoreapp1.1\akizong.pdb
+C:\Users\Akibone's Alienware\Desktop\vs\AkiZong.github.io\akizong\akizong\obj\Debug\netcoreapp1.1\akizong.csprojResolveAssemblyReference.cache
+C:\Users\Akibone's Alienware\Desktop\vs\AkiZong.github.io\akizong\akizong\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\Akibone's Alienware\Desktop\vs\AkiZong.github.io\akizong\akizong\obj\Debug\netcoreapp1.1\akizong.AssemblyInfo.cs
+C:\Users\Akibone's Alienware\Desktop\vs\AkiZong.github.io\akizong\akizong\obj\Debug\netcoreapp1.1\akizong.dll
+C:\Users\Akibone's Alienware\Desktop\vs\AkiZong.github.io\akizong\akizong\obj\Debug\netcoreapp1.1\akizong.pdb
